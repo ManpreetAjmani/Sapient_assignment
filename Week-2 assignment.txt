@@ -1,0 +1,9 @@
+Replica set commands
+
+mongo –host ServerB –port 27017
+mongo –host ServerC –port 27017
+mongo –replSet "Manpreet_Replica1"  --bind_ip localhost,<hostname(s)|ip address(es)>
+rs.initiate ()
+rs.conf()
+rs.status() 
+
